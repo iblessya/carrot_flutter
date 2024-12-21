@@ -4,6 +4,7 @@ import 'package:carrot_flutter/src/shared/timeutil.dart';
 import 'package:flutter/material.dart';
 import 'package:get_storage/get_storage.dart';
 
+// 메인
 Future<void> main() async {
   await GetStorage.init();
   final box = GetStorage();
