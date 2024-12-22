@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Carrot Market',
-      theme: ThemeData(
+      theme: ThemeData( // theme 설정
         primaryColor: const Color(0xFFFF6f0f),
         bottomNavigationBarTheme: const BottomNavigationBarThemeData(
           selectedItemColor: Colors.black,
